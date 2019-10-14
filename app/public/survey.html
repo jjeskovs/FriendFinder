@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+     <!-- Helpful links  -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"
+   />
+
+   <script
+     src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+     crossorigin="anonymous"
+   ></script>
+
+   <script
+     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+     crossorigin="anonymous"
+   ></script>
+
+   <script
+     src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+     crossorigin="anonymous"
+   ></script>
+
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <title>Survey</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark rounded mb-5 text-light ">
+        <h1 class="display-4 font-italic text-center mb-5">Survey</h1>
+        <p>Please complete this survey to find your perfect motorcycle match! The following questions are on the scale of 1 through 5. With 1 being the least of you liking and 5 is YAY Baby.</p>
+    </nav>    
+    <div class="container content">
+        <form>
+            <div class="form-group col-md-8">
+                    <input id="name" type="text" class="form-control" placeholder="Name (Required)">
+            </div>
+                <div class="form-group col-md-8">
+                    <input id="photo" type="text" class="form-control" placeholder="Link to Profile Photo (Required)">
+                </div>
+                
+                <div class="form-group col-md-4">
+                        <label for="question1">I'm a GOD on two wheels</label>
+                        <select class="form-control" id="question1">
+                            <option value="empty"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="question2">I like to go as fast as possible.</label>
+                    <select class="form-control" id="question2">
+                        <option value="empty"></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                
+                <div class="form-group col-md-4">
+                    <label for="question3">Comfort is secondary, speed is all I need</label>
+                    <select class="form-control" id="question3">
+                        <option value="empty"></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                
+                <div class="form-group col-md-4">
+                    <label for="question4">I love riding fast, but Im a sucker for comfort.</label>
+                    <select class="form-control" id="question4">
+                        <option value="empty"></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                
+                <div class="form-group col-md-4">
+                        <label for="question5">I don't ride with out "Back Warmer".</label>
+                        <select class="form-control" id="question5">
+                            <option value="empty"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="question6">Asphalt is a must</label>
+                    <select class="form-control" id="question6">
+                        <option value="empty"></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                
+                <div class="form-group col-md-4">
+                    <label for="question7">Going of the grid is a must</label>
+                    <select class="form-control" id="question7">
+                        <option value="empty"></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                
+                <div class="form-group col-md-4">
+                    <label for="question8">Going sideways into the corner is why I wake up in the morning</label>
+                    <select class="form-control" id="question8">
+                        <option value="empty"></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="question9">Valves are some Voodoo magic that just adds extra weight </label>
+                    <select class="form-control" id="question9">
+                        <option value="empty"></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                
+                <div class="form-group col-md-4">
+                    <label for="question10">I love taking air</label>
+                    <select class="form-control" id="question10">
+                        <option value="empty"></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </form>
+		<div class="text-center">
+			<button id="submitBtn" type="submit" class="btn bg-dark text-light">Submit</button>
+		</div>
+</body>
+</html>
