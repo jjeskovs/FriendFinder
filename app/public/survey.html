@@ -178,7 +178,7 @@
                   <img id = "bikePhoto" src="#">
                 </div>
                 <div class="modal-footer">
-                  <button id = "close" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="close btn btn-secondary" data-dismiss="modal">Close</button>
                   <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
                 </div>
               </div>
@@ -231,9 +231,10 @@ $("#submitBtn").on("click", function(event){
     };
 });
 
-// $("#close").on("click", function(){
-//     location.reload();
-// });
+$(".close").on("click", function(){
+    location.reload();
+
+});
 
 </script> 
 
