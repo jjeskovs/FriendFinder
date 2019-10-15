@@ -6,12 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
      <!-- Helpful links  -->
-     <script
-     src="https://code.jquery.com/jquery-3.4.1.min.js"
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
      crossorigin="anonymous"
    ></script>
-
+     
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
      
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -26,11 +25,11 @@
     <title>Survey</title>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark rounded mb-5 text-light ">
-        <h1 class="display-4 font-italic text-center mb-5">Survey</h1>
+    <nav class="navbar navbar-dark bg-dark rounded mb-5 text-light text-center">
+        <h1 id = "move" class="display-4 font-italic text-center mb-5">Survey</h1>
         <p>Please complete this survey to find your perfect motorcycle match! The following questions are on the scale of 1 through 5. With 1 being the least of you liking and 5 is YAY Baby.</p>
     </nav>    
-    <div class="container content">
+    <div class="container content offset-md-2">
         <form>
             <div class="form-group col-md-8">
                     <input id="name" type="text" class="form-control" placeholder="Name (Required)">
@@ -43,11 +42,11 @@
                         <label for="question1">I'm a GOD on two wheels</label>
                         <select class="form-control" id="question1">
                             <option value="empty"></option>
-                            <option value="1">1</option>
+                            <option value="1">1 (Least like you)</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
                             <option value="4">4</option>
-                            <option value="5">5</option>
+                            <option value="5">5 (Just Like You)</option>
                         </select>
                 </div>
 
@@ -55,11 +54,11 @@
                     <label for="question2">I like to go as fast as possible.</label>
                     <select class="form-control" id="question2">
                         <option value="empty"></option>
-                        <option value="1">1</option>
+                        <option value="1">1 (Least like you)</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
-                        <option value="5">5</option>
+                        <option value="5">5 (Just Like You)</option>
                     </select>
                 </div>
                 
@@ -67,11 +66,11 @@
                     <label for="question3">Comfort is secondary, speed is all I need</label>
                     <select class="form-control" id="question3">
                         <option value="empty"></option>
-                        <option value="1">1</option>
+                        <option value="1">1 (Least like you)</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
-                        <option value="5">5</option>
+                        <option value="5">5 (Just Like You)</option>
                     </select>
                 </div>
                 
@@ -79,11 +78,11 @@
                     <label for="question4">I love riding fast, but Im a sucker for comfort.</label>
                     <select class="form-control" id="question4">
                         <option value="empty"></option>
-                        <option value="1">1</option>
+                        <option value="1">1 (Least like you)</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
-                        <option value="5">5</option>
+                        <option value="5">5 (Just Like You)</option>
                     </select>
                 </div>
                 
@@ -91,11 +90,11 @@
                         <label for="question5">I don't ride with out "Back Warmer".</label>
                         <select class="form-control" id="question5">
                             <option value="empty"></option>
-                            <option value="1">1</option>
+                            <option value="1">1 (Least like you)</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
                             <option value="4">4</option>
-                            <option value="5">5</option>
+                            <option value="5">5 (Just Like You)</option>
                         </select>
                 </div>
 
@@ -103,11 +102,11 @@
                     <label for="question6">Asphalt is a must</label>
                     <select class="form-control" id="question6">
                         <option value="empty"></option>
-                        <option value="1">1</option>
+                        <option value="1">1 (Least like you)</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
-                        <option value="5">5</option>
+                        <option value="5">5 (Just Like You)</option>
                     </select>
                 </div>
                 
@@ -115,11 +114,11 @@
                     <label for="question7">Going of the grid is a must</label>
                     <select class="form-control" id="question7">
                         <option value="empty"></option>
-                        <option value="1">1</option>
+                        <option value="1">1 (Least like you)</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
-                        <option value="5">5</option>
+                        <option value="5">5 (Just Like You)</option>
                     </select>
                 </div>
                 
@@ -127,22 +126,22 @@
                     <label for="question8">Going sideways into the corner is why I wake up in the morning</label>
                     <select class="form-control" id="question8">
                         <option value="empty"></option>
-                        <option value="1">1</option>
+                        <option value="1">1 (Least like you)</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
-                        <option value="5">5</option>
+                        <option value="5">5 (Just Like You5 (Just Like You)</option>
                     </select>
                 </div>
                 <div class="form-group col-md-4">
                     <label for="question9">Valves are some Voodoo magic that just adds extra weight </label>
                     <select class="form-control" id="question9">
                         <option value="empty"></option>
-                        <option value="1">1</option>
+                        <option value="1">1 (Least like you)</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
-                        <option value="5">5</option>
+                        <option value="5">5 (Just Like You)</option>
                     </select>
                 </div>
                 
@@ -150,16 +149,18 @@
                     <label for="question10">I love taking air</label>
                     <select class="form-control" id="question10">
                         <option value="empty"></option>
-                        <option value="1">1</option>
+                        <option value="1">1 (Least like you)</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
-                        <option value="5">5</option>
+                        <option value="5">5 (Just Like You)</option>
                     </select>
                 </div>
-            </form>
-		<div class="text-center">
-			<button id="submitBtn" type="submit" class="btn bg-dark text-light">Submit</button>
+        </form>
+        
+    </div>
+        <div class="text-center">
+			<button id="submitBtn" type="submit" class="btn bg-dark text-light col-md-7 mb-5 mt-2">Submit</button>
         </div>
         
 
@@ -181,8 +182,7 @@
                 </div>
               </div>
             </div>
-          </div>
-
+        </div>
 
 <script type="text/javascript">
     
@@ -192,12 +192,12 @@ $("#submitBtn").on("click", function(event){
     function validateForm(){
         var valid = true;
         $(".form-control").each(function (){
-            if ($(this).val() === ""){
+            if ($(this).val() === "" || $(this).val() === "empty"){
                 valid = false;
                 console.log("Form is not Valid!!!")
-                alert("Please answer all the question")
-            }
-        })
+                return alert("Please answer all the question")
+            };
+        });
         return valid;
     }
 
@@ -216,32 +216,38 @@ $("#submitBtn").on("click", function(event){
                 $("#question7").val().trim(),
                 $("#question8").val().trim(),
                 $("#question9").val().trim(),
-                $("#question10").val().trim()
+                $("#question10").val().trim(),
             ] 
         }
         
         $.post("/api/friends", user, function(data){
             // use data to populate model
-            $("#name").append(data.picture); 
-            $("#body").append(data.name); 
+            // $("#bestFriend").text(data.name);
+            // $("#bestFriendPhoto").attr("src", data.photo);
+            // $("#bestFriendModal").modal("toggle");
+            
+            
+            // $("#name").append(data.picture); 
+            // $("#body").append(data.name); 
           
             $("#myModal").modal();
-            $(".form-control").empty();
-            $("#name").val("");
-            $("#photo").val("");
-
+            // // $(".form-control").reset();
+            // // $(".form-control").empty();
+            // $("#name").val("");
+            // $("#photo").val("");
         }); 
-        
-        
     }
+})
+</script> 
+
+</body>
+</html>
+
+        
+        
             
         
-})
     
     
     
     
-
-</script> 
-    </body>
-</html>
