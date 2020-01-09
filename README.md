@@ -1,5 +1,4 @@
-![logo](app/public/assets/images/FriendFinder.png)
-# Web Scraper
+![logo](app/public/assets/images/logo.jpeg)
 
 Friend Finder allows the user to take a survey and find the best friend match. And of course the best friend is you bike, or the bike you want. 
 
