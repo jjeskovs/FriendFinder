@@ -5,6 +5,14 @@ body {
     background-size: cover;
 }
 
+.jumbotron {
+  background: url("../images/logo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
 img {
   height: 200px;  
   border-radius: 5px;;

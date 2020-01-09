@@ -1,6 +1,6 @@
 ![logo](app/public/assets/images/logo.jpg)
 
-Friend Finder allows the user to take a survey and find the best friend match. And of course the best friend is you bike, or the bike you want. 
+Friend Finder allows the user to take a survey and find the best friend match. And of course the best friend is your bike! What else can it be? 
 
 
 ## Getting Started
