@@ -22,6 +22,7 @@ Friend Finder allows the user to take a survey and find the best friend match. A
 
 ### Preview of the app: 
 #### This is the landing page of the app. All the user has to do is to click the "Let's Start" button and the magic begins. 
+
 [landing-page](app/public/assets/images/FriendFinder.png)
 
 #### This is the survey page, with the list of all 10 questions that must be answered before the user can proceed to the next page 
