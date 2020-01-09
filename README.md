@@ -1,6 +1,6 @@
 ![logo](app/public/assets/images/logo.jpg)
 
-Friend Finder allows the user to take a survey and find the best friend match. And of course the best friend is your bike! What else can it be? 
+Friend Finder allows the user to take a survey and find the best friend match. And of course the best friend is your motorcycle! What else can it be? 
 
 
 ## Getting Started
@@ -8,6 +8,7 @@ Friend Finder allows the user to take a survey and find the best friend match. A
 <pre>git clone git@github.com:jjeskovs/FriendFinder.git</pre>
 
 2. Install Node.js
+
 3. Install all the dependency by running: 
 <pre>npm install</pre>
 
