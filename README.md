@@ -1,13 +1,7 @@
 ![logo](public/assets/images/FriendFinder.png)
 # Web Scraper
 
-The app is the web scraping application setup to scrape the data from Andrew Zimmern website. The scraping process is a process of grabbing the information from a website using Cheerio.JS scraping tool. 
-
-After that data has been scraped it is displayed in the app and is stored in the Mongo database. 
-
-The user then has the ability to save articles for future reading or delete the article. 
-
-For the saved articles, the user has an option to store notes (comments) for an article of his choosing. The notes are then associated with the specific article and are stored in the database. The notes can be edited and or removed from the article and database. 
+Friend Finder allows the user to take a survey and find the best friend match. And of course the best friend is you bike, or the bike you want. 
 
 
 ## Getting Started
@@ -27,6 +21,18 @@ For the saved articles, the user has an option to store notes (comments) for an 
 <pre>https://guarded-sands-60220.herokuapp.com/</pre>
 
 ### Preview of the app: 
+#### This is the landing page of the app. All the user has to do is to click the "Let's Start" button and the magic begins. 
+[landing-page](public/assets/images/FriendFinder.png)
+
+#### This is the survey page, with the list of all 10 questions that must be answered before the user can proceed to the next page 
+[survey](public/assets/images/Survey.png)
+
+#### This is the final result page. The app took into consideration all the user answers and displayed the best match result. 
+[final-result](app/public/assets/images/Result.png)
+
+
+### Future Development 
+The App will not advance forward until all the survey questions are answered, however there are currently no notification that would let the user know that the some of the questions are still need to be answered. 
 
 
 ## The technology used for this
