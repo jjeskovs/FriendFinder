@@ -2,6 +2,9 @@
 
 Friend Finder allows the user to take a survey and find the best friend match. And of course the best friend is your motorcycle! What else can it be? 
 
+The live version of the app can be accessed by clicking the link below:
+
+https://guarded-sands-60220.herokuapp.com/
 
 ## Getting Started
 1. Clone the repository 
